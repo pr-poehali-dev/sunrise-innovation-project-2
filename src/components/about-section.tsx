@@ -1,6 +1,6 @@
 export function AboutSection() {
   const stats = [
-    { value: "20+", label: "Лет истории" },
+    { value: "6+", label: "Лет истории" },
     { value: "500+", label: "Членов клуба" },
     { value: "300+", label: "Концертов вместе" },
     { value: "1", label: "Официальный клуб" },
