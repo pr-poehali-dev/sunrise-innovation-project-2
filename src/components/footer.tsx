@@ -1,4 +1,5 @@
-import { Github, Twitter, Linkedin, Mail } from "lucide-react"
+import { Mail } from "lucide-react"
+import Icon from "@/components/ui/icon"
 
 export function Footer() {
   return (
@@ -8,20 +9,17 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Synapse<span className="text-red-500">AI</span>
+              АРИЙСКОЕ<span className="text-red-500"> БРАТСТВО</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
-              Продвигаем будущее нейросвязи с передовыми технологиями интерфейса мозг-компьютер.
+              Официальный московский фан-клуб группы АРИЯ. Более 20 лет преданности, братства и тяжёлой музыки.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Twitter size={20} />
+                <Icon name="Send" size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Github size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
-                <Linkedin size={20} />
+                <Icon name="Music" size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
                 <Mail size={20} />
@@ -29,32 +27,32 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Product */}
+          {/* Club */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Продукт</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Клуб</h3>
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#technology"
+                  href="#about"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Технологии
+                  О клубе
                 </a>
               </li>
               <li>
                 <a
-                  href="#applications"
+                  href="#history"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Применения
+                  История
                 </a>
               </li>
               <li>
                 <a
-                  href="#safety"
+                  href="#members"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Безопасность
+                  Участники
                 </a>
               </li>
               <li>
@@ -68,28 +66,28 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Contacts */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Компания</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Контакты</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  О нас
+                  Написать нам
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Карьера
+                  ВКонтакте
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Пресса
+                  Telegram
                 </a>
               </li>
               <li>
                 <a href="#" className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200">
-                  Контакты
+                  Вступить в клуб
                 </a>
               </li>
             </ul>
@@ -99,7 +97,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-red-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">2025 SynapseAI. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">© 2026 Арийское Братство. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"
