@@ -8,9 +8,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              АРИЙСКОЕ<span className="text-red-500"> БРАТСТВО</span>
-            </h2>
+            <div className="flex items-center gap-4 mb-4">
+              <img
+                src="https://cdn.poehali.dev/projects/2f381a23-752b-49de-bcf8-06146323613f/bucket/0bd4e905-622b-4721-8a9b-6f36e207bf5f.jpg"
+                alt="Арийское Братство"
+                className="h-16 w-16 rounded-full object-cover border-2 border-red-500/40"
+              />
+              <h2 className="font-orbitron text-2xl font-bold text-white">
+                АРИЙСКОЕ<span className="text-red-500"> БРАТСТВО</span>
+              </h2>
+            </div>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Официальный московский фан-клуб группы АРИЯ. Более 20 лет преданности, братства и тяжёлой музыки.
             </p>

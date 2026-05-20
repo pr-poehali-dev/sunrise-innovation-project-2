@@ -10,8 +10,13 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="font-orbitron text-xl font-bold text-white">
+          <div className="flex-shrink-0 flex items-center gap-3">
+            <img
+              src="https://cdn.poehali.dev/projects/2f381a23-752b-49de-bcf8-06146323613f/bucket/0bd4e905-622b-4721-8a9b-6f36e207bf5f.jpg"
+              alt="Арийское Братство"
+              className="h-10 w-10 rounded-full object-cover"
+            />
+            <h1 className="font-orbitron text-lg font-bold text-white hidden sm:block">
               АРИЙСКОЕ<span className="text-red-500"> БРАТСТВО</span>
             </h1>
           </div>
